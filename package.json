@@ -1,0 +1,43 @@
+{
+  "name": "vue-browser-back",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name vue-browser-back src/index.js",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "vue": "^2.6.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-e2e-nightwatch": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "description": "> 捕捉用户点击浏览器返回事件，以便对用户做挽留操作，支持 PC/Mobile",
+  "main": "dist/vue-browser-back.umd.min.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qhbhq/vue-browser-back.git"
+  },
+  "keywords": [
+    "vue",
+    "browser",
+    "back"
+  ],
+  "bugs": {
+    "url": "https://github.com/qhbhq/vue-browser-back/issues"
+  },
+  "homepage": "https://github.com/qhbhq/vue-browser-back#readme"
+}
